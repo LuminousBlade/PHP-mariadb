@@ -6,7 +6,7 @@ return [
     'port' => '3306',
     'dbname' => 'todo_db',
     'charset' => 'utf8mb4'
-  ]
+  ],
 ];
 
 ?>

@@ -4,7 +4,7 @@ class Database {
   public $connection;
   public function __construct($config, $username = 'root', $password = 'mariadb') {
 
-    $dsn = 'mysql:host=localhost;dbname=todo_db;port=3306';
+    $dsn = 'mysql:' . http_build_query($config, '', ';');
 
     $this->connection = new PDO($dsn, $username, $password, [
       PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
