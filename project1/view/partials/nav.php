@@ -12,8 +12,8 @@
               <a href="/" class="<?= urlIS('/') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
               <a href="/about" class="<?= $_SERVER['REQUEST_URI'] === '/about' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
               <a href="/notes" class="<?= $_SERVER['REQUEST_URI'] === '/notes' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Notes</a>
-              <a href="/contacts" class="<?= $_SERVER['REQUEST_URL'] === '/contacts' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacts</a>
-              <a href="/OurMission" class="t<?= $_SERVER['REQUEST_URL'] === '/OurMission' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">OurMission</a>
+              <a href="/contacts" class="<?= $_SERVER['REQUEST_URI'] === '/contacts' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacts</a>
+              <a href="/OurMission" class="t<?= $_SERVER['REQUEST_URI'] === '/OurMission' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">OurMission</a>
             </div>
           </div>
         </div>
